@@ -1,0 +1,6 @@
+This subdirectory is for placing:
+-> .cpp
+
+Don't place build files here, that goes in the root of project
+
+.hpp files are to go in projectRoot/include

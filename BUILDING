@@ -1,0 +1,17 @@
+To build the project you first must have CMake installed - minimum version 3.0 required
+Then make sure CMake is added to the path
+
+Go to the root of this project, where the CMakeLists.txt is
+And open up the Command line or Powershell here
+
+Then type
+ cmake . -G "MinGW Makefiles"
+To generate a MinGW Makefile for the project - requires the MinGW compiler with C++ support
+To build the project then type
+ mingw32-make
+This generates the execuatble for the program
+
+Other notes:
+Want to get rid of the execuatble cleanly?
+Type at the root directory of this project
+ mingw32-make clean
